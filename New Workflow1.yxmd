@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>updated1_pur_reg_2200_2300.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="miro_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="posting_dt" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="miro_acc" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="doc_dt" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="referance" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="vendor" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="material_code" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="description" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="plant" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="quantity1" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="purchasing_unit" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="base_amount" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="net_amount" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="h_and_f" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="pack_and_fw" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="freight" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="central_gst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="state_gst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="integrated_gst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="other" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="tcs" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="with_hold_tax" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="total_amt" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="bill_amount" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="po_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="profit_center" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="tax_code" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="gst_rate" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="qty" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="net_taxable_value" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="tax_code_desc" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="vendor_gst_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="asset_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="asset_class" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="asset_class_name" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="g_l_account_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="g_l_acc_descr" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="miro_hsn" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="material_master_hsn" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="incl_before_tax_amount" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="inc_sgst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="inc_cgst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="inc_igst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="registration_details" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="ean_upc" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="pr_item" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="pr_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="state_code" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="state" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="vendor_category" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="text" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="doc_typ" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="indentification" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="description_of_material_type" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="invoice_flag" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="base_unit" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="company" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="year" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="contact_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="currency" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="currency_1" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="currency_2" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="item_category" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="material_type" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="pan_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="po_type" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="entry_date" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="email_id" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="plant_gst_no" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="place_of_supply" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="acc_assignment_cate" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="contractor_a_c" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="exch_rate" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="pur_return" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="custom_duty" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="asset_description" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="total_tax_amt_inc" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="utgst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="rcm_pay_cgst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="rcm_pay_sgst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="rcm_pay_igst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="rcm_pay_ugst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="business_place" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="cess" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="entry_tax" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="excise" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="hedcess" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="inc_utgst" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="internal_order" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="reduction_3" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="serv_ecs" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="serv_hecs" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="serv_tax" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="storage_location" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="storage_location_description" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="swachha_bharat_tax" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="tax_amt" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="vat" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+            <Field name="po_hsn" size="254" source="File: C:\Users\ash_s\OneDrive\Desktop\updated1_pur_reg_2200_2300.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ash_s\AppData\Local\Temp\Engine_13912_cb51bfd4ec29f3498e791081c91396c2_\Engine_13912_06cf6a6436efa2469f79b7706ae87d6c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="282" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"miro_no","posting_dt","miro_acc","doc_dt","referance","vendor","name","material_code","description","plant","quantity1","purchasing_unit","base_amount","net_amount","h_and_f","pack_and_fw","freight","central_gst","state_gst","integrated_gst","other","tcs","with_hold_tax","total_amt","bill_amount","po_no","profit_center","tax_code","gst_rate","qty","net_taxable_value","tax_code_desc","vendor_gst_no","asset_no","asset_class","asset_class_name","g_l_account_no","g_l_acc_descr","miro_hsn","material_master_hsn","incl_before_tax_amount","inc_sgst","inc_cgst","inc_igst","registration_details","ean_upc","pr_item","pr_no","state_code","state","vendor_category","text","city","doc_typ","indentification","description_of_material_type","invoice_flag","base_unit","company","year","contact_no","currency","currency_1","currency_2","item_category","material_type","pan_no","po_type","entry_date","email_id","plant_gst_no","place_of_supply","acc_assignment_cate","contractor_a_c","exch_rate","pur_return","custom_duty","asset_description","total_tax_amt_inc","utgst","rcm_pay_cgst","rcm_pay_sgst","rcm_pay_igst","rcm_pay_ugst","business_place","cess","entry_tax","excise","hedcess","inc_utgst","internal_order","reduction_3","serv_ecs","serv_hecs","serv_tax","storage_location","storage_location_description","swachha_bharat_tax","tax_amt","vat","po_hsn"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ecc86d72-d6f4-4a4d-b779-3bffe3b6674e" />
+      <Telemetry>
+        <PreviousWorkflowId value="25cfe411-fe58-4a8c-a16d-eb449e461de6" />
+        <OriginWorkflowId value="25cfe411-fe58-4a8c-a16d-eb449e461de6" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
