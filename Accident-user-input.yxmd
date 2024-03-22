@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="6" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>US_Accidents_March23.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Source" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Severity" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Start_Time" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="End_Time" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Start_Lat" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Start_Lng" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="End_Lat" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="End_Lng" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Distance(mi)" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Description" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Street" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="County" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Zipcode" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Timezone" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Airport_Code" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Weather_Timestamp" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Temperature(F)" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Wind_Chill(F)" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Humidity(%)" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Pressure(in)" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Visibility(mi)" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Wind_Direction" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Wind_Speed(mph)" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Precipitation(in)" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Weather_Condition" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Amenity" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Bump" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Crossing" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Give_Way" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Junction" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="No_Exit" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Railway" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Roundabout" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Station" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Stop" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Traffic_Calming" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Traffic_Signal" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Turning_Loop" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Sunrise_Sunset" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Civil_Twilight" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Nautical_Twilight" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+            <Field name="Astronomical_Twilight" size="254" source="File: C:\Users\ash_s\Downloads\archive (8)\US_Accidents_March23.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeFormat([Start_Time],&quot;%A&quot;)" field="Day" size="1073741823" type="V_WString" />
+            <FormulaField expression="if [Day] in (&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&#xA;&quot;Thursday&quot;,&quot;Friday&quot;)&#xA;then &quot;Weekday&quot;&#xA;elseif [Day] in &#xA;(&quot;Saturday&quot;,&quot;Sunday&quot;)&#xA;then &quot;Weekend&quot;&#xA;else &quot;Data issue&quot;&#xA;endif" field="Day_type" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeFormat([Start_Time],&quot;%H&quot;)" field="Hour" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeTrim([Start_Time],&quot;lastofmonth&quot;)" field="EOM" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeAdd(&#xA;DateTimeTrim([Start_Time],&quot;firstofmonth&quot;)&#xA;,-1,&quot;days&quot;)" field="EOPM" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Day = DateTimeFormat([Start_Time],"%A")
+Day_type = if [Day] in ("Monday","Tuesda...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ash_s\AppData\Local\Temp\Engine_35096_3e3014657825524f90f4406c652a50ef_\Engine_35096_0efca475fec69a4dbc57ed2986a44c0a~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="90" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Start_Time</InputFieldName>
+          <Language>English</Language>
+          <Format>yyyy-MM-dd hh:mm:ss</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Start_Time From:
+yyyy-MM-dd hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Start_Time" selected="False" />
+            <SelectField field="DateTime_Out" selected="True" rename="Start_Time" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="666" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="ID" action="CountDistinct" rename="Accidents" />
+            <SummarizeField field="Day_type" action="GroupBy" rename="Day_type" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ash_s\AppData\Local\Temp\Engine_35096_3e3014657825524f90f4406c652a50ef_\Engine_35096_c0661ce6daa99a49964b1c3a9550d7d3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="630" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="ID" action="CountDistinct" rename="Accidents Count" />
+            <SummarizeField field="Hour" action="GroupBy" rename="Hour" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="750" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Accidents Count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Accidents Count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ash_s\AppData\Local\Temp\Engine_35096_3e3014657825524f90f4406c652a50ef_\Engine_35096_bf7ac67aee368f45aeda778c68f0f6b0~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="150" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.Input2"><![CDATA[User_input=Start_Time
+]]></Value>
+          <Value name="Date (6)">2023-01-01</Value>
+          <Value name="Date (8)">2023-01-31</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro=".\user-input-macro.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="378" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Start_Time" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="User_input" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ID" selected="True" rename="Right_ID" input="Right_" />
+                <SelectField field="Right_Source" selected="True" rename="Right_Source" input="Right_" />
+                <SelectField field="Right_Severity" selected="True" rename="Right_Severity" input="Right_" />
+                <SelectField field="Right_End_Time" selected="True" rename="Right_End_Time" input="Right_" />
+                <SelectField field="Right_Start_Lat" selected="True" rename="Right_Start_Lat" input="Right_" />
+                <SelectField field="Right_Start_Lng" selected="True" rename="Right_Start_Lng" input="Right_" />
+                <SelectField field="Right_End_Lat" selected="True" rename="Right_End_Lat" input="Right_" />
+                <SelectField field="Right_End_Lng" selected="True" rename="Right_End_Lng" input="Right_" />
+                <SelectField field="Right_Distance(mi)" selected="True" rename="Right_Distance(mi)" input="Right_" />
+                <SelectField field="Right_Description" selected="True" rename="Right_Description" input="Right_" />
+                <SelectField field="Right_Street" selected="True" rename="Right_Street" input="Right_" />
+                <SelectField field="Right_City" selected="True" rename="Right_City" input="Right_" />
+                <SelectField field="Right_County" selected="True" rename="Right_County" input="Right_" />
+                <SelectField field="Right_State" selected="True" rename="Right_State" input="Right_" />
+                <SelectField field="Right_Zipcode" selected="True" rename="Right_Zipcode" input="Right_" />
+                <SelectField field="Right_Country" selected="True" rename="Right_Country" input="Right_" />
+                <SelectField field="Right_Timezone" selected="True" rename="Right_Timezone" input="Right_" />
+                <SelectField field="Right_Airport_Code" selected="True" rename="Right_Airport_Code" input="Right_" />
+                <SelectField field="Right_Weather_Timestamp" selected="True" rename="Right_Weather_Timestamp" input="Right_" />
+                <SelectField field="Right_Temperature(F)" selected="True" rename="Right_Temperature(F)" input="Right_" />
+                <SelectField field="Right_Wind_Chill(F)" selected="True" rename="Right_Wind_Chill(F)" input="Right_" />
+                <SelectField field="Right_Humidity(%)" selected="True" rename="Right_Humidity(%)" input="Right_" />
+                <SelectField field="Right_Pressure(in)" selected="True" rename="Right_Pressure(in)" input="Right_" />
+                <SelectField field="Right_Visibility(mi)" selected="True" rename="Right_Visibility(mi)" input="Right_" />
+                <SelectField field="Right_Wind_Direction" selected="True" rename="Right_Wind_Direction" input="Right_" />
+                <SelectField field="Right_Wind_Speed(mph)" selected="True" rename="Right_Wind_Speed(mph)" input="Right_" />
+                <SelectField field="Right_Precipitation(in)" selected="True" rename="Right_Precipitation(in)" input="Right_" />
+                <SelectField field="Right_Weather_Condition" selected="True" rename="Right_Weather_Condition" input="Right_" />
+                <SelectField field="Right_Amenity" selected="True" rename="Right_Amenity" input="Right_" />
+                <SelectField field="Right_Bump" selected="True" rename="Right_Bump" input="Right_" />
+                <SelectField field="Right_Crossing" selected="True" rename="Right_Crossing" input="Right_" />
+                <SelectField field="Right_Give_Way" selected="True" rename="Right_Give_Way" input="Right_" />
+                <SelectField field="Right_Junction" selected="True" rename="Right_Junction" input="Right_" />
+                <SelectField field="Right_No_Exit" selected="True" rename="Right_No_Exit" input="Right_" />
+                <SelectField field="Right_Railway" selected="True" rename="Right_Railway" input="Right_" />
+                <SelectField field="Right_Roundabout" selected="True" rename="Right_Roundabout" input="Right_" />
+                <SelectField field="Right_Station" selected="True" rename="Right_Station" input="Right_" />
+                <SelectField field="Right_Stop" selected="True" rename="Right_Stop" input="Right_" />
+                <SelectField field="Right_Traffic_Calming" selected="True" rename="Right_Traffic_Calming" input="Right_" />
+                <SelectField field="Right_Traffic_Signal" selected="True" rename="Right_Traffic_Signal" input="Right_" />
+                <SelectField field="Right_Turning_Loop" selected="True" rename="Right_Turning_Loop" input="Right_" />
+                <SelectField field="Right_Sunrise_Sunset" selected="True" rename="Right_Sunrise_Sunset" input="Right_" />
+                <SelectField field="Right_Civil_Twilight" selected="True" rename="Right_Civil_Twilight" input="Right_" />
+                <SelectField field="Right_Nautical_Twilight" selected="True" rename="Right_Nautical_Twilight" input="Right_" />
+                <SelectField field="Right_Astronomical_Twilight" selected="True" rename="Right_Astronomical_Twilight" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ash_s\AppData\Local\Temp\Engine_35096_3e3014657825524f90f4406c652a50ef_\Engine_35096_824c50afd652bb48a2c4b60d20cb975e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="User-input" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="12" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Accident-user-input</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="537f37f9-0850-471c-92b8-51b1b5eafb6b" />
+      <Telemetry>
+        <PreviousWorkflowId value="27c3d7ef-318c-409e-935b-46e8e53bbdb0" />
+        <OriginWorkflowId value="27c3d7ef-318c-409e-935b-46e8e53bbdb0" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
